@@ -1,0 +1,77 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    background-color: #f9f9f9;
+    /* Màu nền sáng cho toàn bộ trang */
+}
+
+h1,
+h2 {
+    color: #333;
+    /* Màu chữ cho tiêu đề */
+}
+
+form {
+    margin-bottom: 20px;
+    padding: 15px;
+    /* Thêm khoảng đệm cho form */
+    border: 1px solid #c0e6c9;
+    /* Viền cho form */
+    background-color: #e3f9e5;
+    /* Màu nền cho form */
+    border-radius: 8px;
+    /* Bo góc cho form */
+}
+
+label {
+    display: block;
+    margin: 5px 0;
+}
+
+input {
+    margin-bottom: 10px;
+    border: 1px solid #c0e6c9;
+    /* Viền cho input */
+    border-radius: 4px;
+    /* Bo góc cho input */
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th,
+td {
+    border: 1px solid #ccc;
+    padding: 8px;
+    text-align: left;
+}
+
+th {
+    background-color: #c4e1c4;
+    /* Màu nền cho tiêu đề bảng */
+    color: #333;
+    /* Màu chữ cho tiêu đề bảng */
+}
+
+button {
+    margin-left: 10px;
+    background-color: #4CAF50;
+    /* Màu nền nút */
+    color: white;
+    /* Màu chữ cho nút */
+    border: none;
+    /* Không viền */
+    padding: 8px 12px;
+    /* Khoảng đệm cho nút */
+    border-radius: 4px;
+    /* Bo góc cho nút */
+    cursor: pointer;
+    /* Con trỏ chuột khi hover */
+}
+
+button:hover {
+    background-color: #45a049;
+    /* Màu nền khi hover */
+}
